@@ -1,0 +1,50 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.header{
+  width: 100%; 
+  height: 50px;
+  background: aqua;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bookCard{
+  border: black solid 1px;
+  width: 700px;
+  height: auto;
+  padding: 20px;
+
+  display: flex;
+  gap: 30px;
+}
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* 
+.bookInfo{
+
+  overflow:hidden;
+  text-overflow:ellipsis;
+} */
+
+
+li{
+  list-style: none;
+  margin-top: 20px;
+}
